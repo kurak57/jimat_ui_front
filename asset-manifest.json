@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jimat_ui_front/static/css/main.53bcab0a.css",
-    "main.js": "/jimat_ui_front/static/js/main.d6803bec.js",
+    "main.js": "/jimat_ui_front/static/js/main.f9b3d3cb.js",
     "static/media/akara-UI-1.webp": "/jimat_ui_front/static/media/akara-UI-1.9284e3dd6febb044f34e.webp",
     "index.html": "/jimat_ui_front/index.html",
     "main.53bcab0a.css.map": "/jimat_ui_front/static/css/main.53bcab0a.css.map",
-    "main.d6803bec.js.map": "/jimat_ui_front/static/js/main.d6803bec.js.map"
+    "main.f9b3d3cb.js.map": "/jimat_ui_front/static/js/main.f9b3d3cb.js.map"
   },
   "entrypoints": [
     "static/css/main.53bcab0a.css",
-    "static/js/main.d6803bec.js"
+    "static/js/main.f9b3d3cb.js"
   ]
 }
