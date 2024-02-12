@@ -31,14 +31,14 @@ function App() {
         <Route path="/formq" element={<AddQ/>}/> */}
 
 {/* Route Deployment Github */}
-        <Route path="/jimat_ui_front" element={<Dashboard/>}/>
+        <Route path="/jimat_ui_front/" element={<Login/>}/>  
+        <Route path="/jimat_ui_front/dashboard" element={<Dashboard/>}/>
         <Route path="/jimat_ui_front/signup" element={<SignUp/>}/>
         <Route path="/jimat_ui_front/users" element={<Users/>}/>
         <Route path="/jimat_ui_front/users/add" element={<AddUser/>}/>
         <Route path="/jimat_ui_front/users/addExcel" element={<AddUserExcel/>}/>
         <Route path="/jimat_ui_front/users/edit/:id" element={<EditUser/>}/>
         <Route path="/jimat_ui_front/interests" element={<Interests/>}/>
-        <Route path="/jimat_ui_front/interests/add" element={<AddInterest/>}/>
         <Route path="/jimat_ui_front/interests/edit/:id" element={<EditInterest/>}/>
         <Route path="/jimat_ui_front/interests/mbkm/:id" element={<ProfilMbkm/>}/>
         <Route path="/jimat_ui_front/interests/minat/:id" element={<ProfilMinat/>}/>
