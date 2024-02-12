@@ -25,7 +25,7 @@ const FormEditInterest = () => {
     useEffect(()=>{
         const getInterestById = async () =>{
             try {
-                const response = await axios.get(`http://localhost:5000/interests/${id}`);
+                const response = await axios.get(`https://jimat-ui-back.vercel.app/interests/${id}`);
                 setName(response.data.name);
                 setFakultas(response.data.fakultas);
                 setK2nTematik(response.data.k2nTematik);
@@ -49,7 +49,7 @@ const FormEditInterest = () => {
         e.preventDefault()
 
         try {
-            await axios.patch(`http://localhost:5000/interests/${id}`, {
+            await axios.patch(`https://jimat-ui-back.vercel.app/interests/${id}`, {
                 name: name,
                 fakultas: fakultas,
                 k2nTematik: k2nTematik,

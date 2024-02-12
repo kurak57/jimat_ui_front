@@ -10,12 +10,12 @@ const Userlist = () => {
     },[]);
 
     const getUsers = async () => {
-        const response = await axios.get('http://localhost:5000/users');
+        const response = await axios.get('https://jimat-ui-back.vercel.app/users');
         setUsers(response.data);
     }
 
     const deleteUser = async (userId) =>{
-        await axios.delete(`http://localhost:5000/${userId}`);
+        await axios.delete(`https://jimat-ui-back.vercel.app/${userId}`);
         getUsers();
     }
   return (

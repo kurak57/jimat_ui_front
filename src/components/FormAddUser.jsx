@@ -20,7 +20,7 @@ const FormAddUser = () => {
     const saveUser = async (e) => {
         e.preventDefault()
         try {
-            await axios.post('http://localhost:5000/users', {
+            await axios.post('https://jimat-ui-back.vercel.app/users', {
                 name: name,
                 email: email,
                 fakultas: fakultas,
