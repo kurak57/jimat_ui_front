@@ -17,7 +17,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login/>}/>
+        {/* <Route path="/" element={<Login/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/signup" element={<SignUp/>}/>
         <Route path="/users" element={<Users/>}/>
@@ -28,10 +28,10 @@ function App() {
         <Route path="/interests/edit/:id" element={<EditInterest/>}/>
         <Route path="/interests/mbkm/:id" element={<ProfilMbkm/>}/>
         <Route path="/interests/minat/:id" element={<ProfilMinat/>}/>
-        <Route path="/formq" element={<AddQ/>}/>
+        <Route path="/formq" element={<AddQ/>}/> */}
 
 {/* Route Deployment Github */}
-        {/* <Route path="/jimat_ui_front" element={<Dashboard/>}/>
+        <Route path="/jimat_ui_front" element={<Dashboard/>}/>
         <Route path="/jimat_ui_front/signup" element={<SignUp/>}/>
         <Route path="/jimat_ui_front/users" element={<Users/>}/>
         <Route path="/jimat_ui_front/users/add" element={<AddUser/>}/>
@@ -42,7 +42,7 @@ function App() {
         <Route path="/jimat_ui_front/interests/edit/:id" element={<EditInterest/>}/>
         <Route path="/jimat_ui_front/interests/mbkm/:id" element={<ProfilMbkm/>}/>
         <Route path="/jimat_ui_front/interests/minat/:id" element={<ProfilMinat/>}/>
-        <Route path="/jimat_ui_front/formq" element={<AddQ/>}/> */}
+        <Route path="/jimat_ui_front/formq" element={<AddQ/>}/>
       </Routes> 
       </BrowserRouter>
     </div>
