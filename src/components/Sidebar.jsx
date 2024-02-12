@@ -21,13 +21,13 @@ const logout = () =>{
         <p className="menu-label">General</p>
       <ul className="menu-list">
         <li> 
-            <NavLink to={"/dashboard"}><IoHome/> Dashboard </NavLink>
+            <NavLink to={"/jimat_ui_front/dashboard"}><IoHome/> Dashboard </NavLink>
         </li>
         <li>
-            <NavLink to={"/interests"}><IoReader/> Interests</NavLink>
+            <NavLink to={"/jimat_ui_front/interests"}><IoReader/> Interests</NavLink>
         </li>
         <li>
-            <NavLink to={"/formq"}><IoCheckbox/> Form Pertanyaan</NavLink>
+            <NavLink to={"/jimat_ui_front/formq"}><IoCheckbox/> Form Pertanyaan</NavLink>
         </li>
     </ul>
   {user && user.role === "admin" && (
@@ -37,10 +37,10 @@ const logout = () =>{
   </p>
   <ul className="menu-list">
     <li>
-    <NavLink to={"/users"}><IoPerson/> users</NavLink>
+    <NavLink to={"/jimat_ui_front/users"}><IoPerson/> users</NavLink>
     </li>
     <li>
-    <NavLink to={"/users/addExcel"}><IoCloudUpload/> Add Users</NavLink>
+    <NavLink to={"/jimat_ui_front/users/addExcel"}><IoCloudUpload/> Add Users</NavLink>
     </li>
   </ul>
     </div>
