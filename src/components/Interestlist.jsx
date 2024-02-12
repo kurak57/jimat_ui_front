@@ -26,7 +26,7 @@ const Interestlist = () => {
         <div className='pl-2 mb-2'>
         <h1 className='title'>Interest</h1>
         <h2 className='subtitle'>List of Interest</h2>
-        <Link to={"/formq"} className='button is-primary'>Add New</Link>
+        <Link to={"/jimat_ui_front/formq"} className='button is-primary'>Add New</Link>
         </div>
         <div className='table-container px-2'>
         <table className='table is-striped is-narrow is-hoverable is-fullwidth'>
@@ -63,8 +63,8 @@ const Interestlist = () => {
                     <td>
                         <div className='columns is-gapless is-mobile'>
                             <div className='column'>
-                                <Link to={`/interests/minat/${interest.uuid}`} className='button is-small is-success ' >Profil</Link>
-                                <Link to={`/interests/mbkm/${interest.uuid}`} className='button is-small is-success ' >MBKM</Link>
+                                <Link to={`/jimat_ui_front/interests/minat/${interest.uuid}`} className='button is-small is-success ' >Profil</Link>
+                                <Link to={`/jimat_ui_front/interests/mbkm/${interest.uuid}`} className='button is-small is-success ' >MBKM</Link>
                             </div>
                             <div className='column'>
                             {user && user.role === "admin" && (

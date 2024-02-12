@@ -61,7 +61,7 @@ const FormEditInterest = () => {
                 wirausaha: wirausaha,
                 stupen: stupen
             });
-            navigate("/interests");
+            navigate("/jimat_ui_front/interests");
         } catch (error) {
             if(error.response) {
                 setMsg(error.response.data.msg);

@@ -58,7 +58,7 @@ const ParseExcel = () => {
                 }
             }
         }
-        navigate("/users");
+        navigate("/jimat_ui_front/users");
     }
 
   return (
@@ -66,7 +66,7 @@ const ParseExcel = () => {
         <div className='pl-2'>
             <h1 className='title'>Add Users</h1>
             <h2 className='subtitle'>Batch add with excel file</h2>
-            <Link to={"/users/add"} className='button is-primary mb-2'>Add a user</Link>
+            <Link to={"/jimat_ui_front/users/add"} className='button is-primary mb-2'>Add a user</Link>
         </div>
         <div className="card is-shadowless">
             <p>{msg}</p>

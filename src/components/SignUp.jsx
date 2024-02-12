@@ -28,7 +28,7 @@ const SignUp = () => {
                 confPassword: confPassword,
                 role: "user"
             });
-            navigate("/");
+            navigate("/jimat_ui_front/");
         } catch (error) {
             if(error.response) {
                 setMsg(error.response.data.msg);

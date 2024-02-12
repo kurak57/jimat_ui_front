@@ -38,7 +38,7 @@ const FormEditUser = () => {
                 confPassword: confPassword,
                 role: role,
             });
-            navigate("/users");
+            navigate("/jimat_ui_front/users");
         } catch (error) {
             if(error.response) {
                 setMsg(error.response.data.msg);

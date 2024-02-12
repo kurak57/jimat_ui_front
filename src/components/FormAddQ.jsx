@@ -189,7 +189,7 @@ const FormQ = () => {
                 stupen: (ma*3+dp*1.5+me*2+ar*0.5+ss+bs+fa*0.5+sc*1.5+mw*0.5+cr+bse*0.5)/15*10
             });
             console.log("Berhasil mengisi data pertanyaan");
-            navigate("/interests");
+            navigate("/jimat_ui_front/interests");
         } catch (error) {
             if(error.response) {
                 setMsg(error.response.data.msg);

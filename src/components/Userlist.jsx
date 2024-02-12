@@ -23,7 +23,7 @@ const Userlist = () => {
         <div className='pl-2 mb-2'>
             <h1 className='title'>Users</h1>
             <h2 className='subtitle'>List of Users</h2>
-            <Link to={"/users/add"} className='button is-primary'>Add New</Link>
+            <Link to={"/jimat_ui_front/users/add"} className='button is-primary'>Add New</Link>
         </div>
         <div className='table-container px-2'>
         <table className="table is-striped is-fullwidth">
@@ -46,7 +46,7 @@ const Userlist = () => {
                     <td>{user.email}</td>
                     <td>{user.role}</td>
                     <td>
-                    <Link to={`/users/edit/${user.uuid}`} className='button is-small is-info' >Edit</Link>
+                    <Link to={`/jimat_ui_front/users/edit/${user.uuid}`} className='button is-small is-info' >Edit</Link>
                     <button onClick={()=> deleteUser(user.uuid)} className='button is-small is-danger' >Delete</button> 
                     </td>
                 </tr>

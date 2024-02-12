@@ -17,7 +17,7 @@ const Dashboard = () => {
 
   useEffect(()=> {
     if(isError){
-      navigate("/");
+      navigate("/jimat_ui_front/");
     }
   }, [isError, navigate]);
 

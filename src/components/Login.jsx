@@ -14,7 +14,7 @@ const Login = () => {
 
     useEffect(()=>{
         if(user || isSuccess){
-            navigate("/dashboard")
+            navigate("/jimat_ui_front/dashboard")
         console.log('login sukses');
         }
         dispatch(reset());
@@ -62,7 +62,7 @@ const Login = () => {
                         </div>
                         <h3 className='label has-text-centered'>Or</h3>
                         <div className="field">
-                        <NavLink to={"/signup"}><button className="button is-success is-fullwidth">Sign Up</button></NavLink>
+                        <NavLink to={"/jimat_ui_front/signup"}><button className="button is-success is-fullwidth">Sign Up</button></NavLink>
                         </div>
                     </form>
                 </div>
