@@ -30,7 +30,7 @@ const FormQ = () => {
   const [token, setToken] = useState('')
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Setiap kali 'page' berubah, kembali ke atas halaman.
+    window.scrollTo(0, 0); 
   }, [page]);
 
   const [formData, setFormData] = useState({
